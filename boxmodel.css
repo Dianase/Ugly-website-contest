@@ -1,0 +1,16 @@
+body{
+  background-color: hotpink;
+}
+
+h1{
+  color: greenyellow;
+}
+
+marquee{
+  font-size:100px;
+  color: brown;
+}
+
+hr{
+  color: blueviolet;
+}
