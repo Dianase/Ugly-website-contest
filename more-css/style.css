@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Noto Sans Display', sans-serif;
+}
+header {
+  background-color: cadetblue;
+  padding: 1em;
+}
+main {
+  background-color: cornsilk;
+  padding: 1em;
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer {
+  background-color: darksalmon;
+  padding: 1em;
+}
+
