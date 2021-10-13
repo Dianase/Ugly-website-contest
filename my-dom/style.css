@@ -1,0 +1,14 @@
+section{
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: pink;
+  border: 1px dashed coral;
+  border-radius: 24px;
+}
+div{
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #999;
+  background-color: #ccc;
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<body>
+  <header> 
+    <nav id= "links">
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="#">Login</a>
+  </nav>
+  </header>
+  <main>
+    <form onsubmit="handleForm(event)">
+      <label for="name"> NAME <input type="text" name="name" id="name"/></label>
+      <br/>
+      <label for="age"> AGE <input type="number" name="age" id="age"/></label>
+      <label for="gender">gender
+        <select name= "gender" id="gender">
+          <option value="NB">NON-BINARY</option>
+          <option value="F">FEMALE</option>
+          <option value="M">MALE</option>
+        </select>
+
+      </label>
+      
+      <button type="submit"> SUBMIT </button>
+    </form>
+  </main>
+  <script src="form.js"></script>
+</body>
+</html>
